@@ -12,11 +12,38 @@ body {
     font-family: Overpass-Light;
 }
 
+header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #1C6E8C;
+    position: fixed;
+}
+
+#navBarToggler {
+    margin: 15px;
+    padding: 5px;
+    scale: 1.5;
+    display: inline-block;
+    color: #274156;
+    background-color: #D0CCD0;
+    border-radius: 30%;
+}
+
 #navBarList {
+    width: 100%;
     margin: 0;
     padding: 0;
     list-style-type: none;
     display: flex;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+    gap: 20px;
+}
+
+#navBarList.active {
+    max-height: 300px;
 }
 
 .navBarItems {
@@ -25,6 +52,7 @@ body {
 
 .navBarLink {
     display: block;
-    padding: 14px 16px;
+    padding: 10px;
     text-decoration: none;
+    color: #D0CCD0;
 }
