@@ -22,12 +22,21 @@ header {
 
 #navBarToggler {
     margin: 15px;
-    padding: 5px;
+    padding: 3px;
     scale: 1.5;
     display: inline-block;
     color: #274156;
     background-color: #D0CCD0;
     border-radius: 30%;
+    transition: transform 0.3s ease-in-out, scale 0.3s ease-in-out;
+}
+
+#navBarToggler:hover {
+    scale: 1.7;
+}
+
+#navBarToggler.active {
+    transform: rotate(90deg);
 }
 
 #navBarList {

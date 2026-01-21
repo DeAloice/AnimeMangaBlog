@@ -5,5 +5,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     navBarToggler.addEventListener('click', () => {
         navBarList.classList.toggle('active');
+        navBarToggler.classList.toggle('active');
     });
 });
