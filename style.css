@@ -1,0 +1,30 @@
+@font-face {
+    src: url(fonts/Overpass-Light.ttf);
+    font-family: Overpass-Light;
+}
+
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Overpass-Light;
+}
+
+#navBarList {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+.navBarItems {
+    float: left;
+}
+
+.navBarLink {
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+}
