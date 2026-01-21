@@ -7,6 +7,10 @@ body {
     margin: 0;
 }
 
+p {
+    margin: 5px;
+}
+
 * {
     box-sizing: border-box;
     font-family: Overpass-Light;
@@ -74,4 +78,25 @@ main {
     margin: 20px;
     border: 5px solid #274156;
     border-radius: 10%;
+    float: left;
+}
+
+.linkList {
+    list-style-type: none;
+}
+
+.linkItem {
+
+}
+
+.reviewImg {
+    float: left;
+}
+
+.reviewLink {
+    color: #274156;
+}
+
+.reviewLink:hover {
+    color: #1C6E8C;
 }
