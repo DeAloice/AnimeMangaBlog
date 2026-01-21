@@ -79,17 +79,23 @@ main {
     border: 5px solid #274156;
     border-radius: 10%;
     float: left;
+    
 }
 
 .linkList {
     list-style-type: none;
+    padding: 0;
 }
 
 .linkItem {
-
+    background-color: #D0CCD0;
+    padding: 30px;
 }
 
 .reviewImg {
+    margin-top: -30px;
+    margin-right: 20px;
+    height: 150px;
     float: left;
 }
 
