@@ -20,6 +20,10 @@ header {
     position: fixed;
 }
 
+main {
+    padding-top: 50px;
+}
+
 #navBarToggler {
     margin: 15px;
     padding: 3px;
@@ -64,4 +68,10 @@ header {
     padding: 10px;
     text-decoration: none;
     color: #D0CCD0;
+}
+
+#selfImg {
+    margin: 20px;
+    border: 5px solid #274156;
+    border-radius: 10%;
 }
