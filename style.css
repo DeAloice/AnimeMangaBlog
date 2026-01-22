@@ -34,6 +34,7 @@ header {
     width: 100%;
     background-color: #1C6E8C;
     position: fixed;
+    z-index: 9999;
 }
 
 main {
@@ -122,4 +123,10 @@ main {
 
 .reviewLink:hover {
     color: #1C6E8C;
+}
+
+#HxHBanner {
+    display: block;
+    margin: auto;
+    width: 100%;
 }
