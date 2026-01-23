@@ -125,8 +125,15 @@ main {
     color: #1C6E8C;
 }
 
-#HxHBanner {
+.centreImage {
     display: block;
     margin: auto;
     width: 100%;
+}
+
+#yuyuhakushoImg {
+    width: 35%;
+    height: 20%;
+    float: left;
+    margin-right: 20px;
 }
