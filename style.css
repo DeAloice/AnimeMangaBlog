@@ -126,15 +126,22 @@ main {
     color: #1C6E8C;
 }
 
-.centreImage {
+.centerImage {
     display: block;
     margin: auto;
     width: 100%;
 }
 
-#yuyuhakushoImg {
+.leftShift {
     width: 35%;
     height: 20%;
     float: left;
     margin-right: 20px;
+}
+
+.rightShift {
+    width: 35%;
+    height: 20%;
+    float: right;
+    margin-left: 20px;
 }
